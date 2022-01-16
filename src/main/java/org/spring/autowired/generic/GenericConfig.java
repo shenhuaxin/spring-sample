@@ -16,4 +16,10 @@ public class GenericConfig {
     }
 
 
+    @Bean
+    public GenericBean<Integer> integerGenericBean() {
+        return new GenericBean<Integer>(1);
+    }
+
+
 }
