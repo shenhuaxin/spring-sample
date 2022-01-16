@@ -3,3 +3,5 @@ build
 out
 gradle
 .idea
+gradlew
+gradlew.bat
