@@ -13,14 +13,18 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
-    //添加spring的依赖
-    implementation 'org.springframework:spring-context:5.2.9.RELEASE'
-    //主要是为了数据源  datasource
-    implementation 'org.springframework:spring-jdbc:5.2.9.RELEASE'
+//    //添加spring的依赖
+//    implementation 'org.springframework:spring-context:5.2.9.RELEASE'
+//    //主要是为了数据源  datasource
+//    implementation 'org.springframework:spring-jdbc:5.2.9.RELEASE'
     //log  输出
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.7'
     implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.2'
+
 }
 
 test {
